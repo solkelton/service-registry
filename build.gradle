@@ -29,8 +29,8 @@ ext {
 }
 
 dependencies {
-    compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
-//    compile("io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry")
+//    compile('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
+    compile("io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry")
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
